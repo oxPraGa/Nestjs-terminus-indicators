@@ -1,0 +1,32 @@
+{
+  "name": "@oxpraga/nestjs-terminus-indicators",
+  "version": "0.0.1",
+  "description": "A nestjs  health indicators",
+  "author": "PraGa(aliouche.houssem2@gmail.com)",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "prepare": "npm run build",
+    "publish:npm": "npm publish --access public"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@nestjs/common": "^8.4.4",
+    "@nestjs/core": "^8.4.4",
+    "@nestjs/terminus": "^8.0.6",
+    "@types/node": "^17.0.21",
+    "amqplib": "^0.8.0",
+    "prettier": "^2.6.2",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.5.5",
+    "typescript": "^4.6.2"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "8.x",
+    "@nestjs/core": "8.x",
+    "rxjs": "7.x"
+  }
+}
