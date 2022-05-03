@@ -1,5 +1,5 @@
-import { RabbitMqHealthIndicator } from "./rabbit-mq-health/indicator/rabbit-mq-health.heatlh";
-import { RabbitMqHealthModule } from "./rabbit-mq-health/rabbit-mq-health.module";
+import { IndicatorsModule } from "./indicators/indicators.module";
+import { RabbitMqHealthIndicator } from "./indicators/rabbit-mq-health.heatlh";
 
-export { RabbitMqHealthModule };
+export { IndicatorsModule };
 export { RabbitMqHealthIndicator };

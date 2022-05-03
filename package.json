@@ -1,7 +1,7 @@
 {
   "name": "@oxpraga/nestjs-terminus-indicators",
   "version": "0.0.1",
-  "description": "A nestjs  health indicators",
+  "description": "A nestjs health indicators",
   "author": "PraGa(aliouche.houssem2@gmail.com)",
   "main": "dist/index",
   "types": "dist/index",
@@ -17,6 +17,7 @@
     "@nestjs/common": "^8.4.4",
     "@nestjs/core": "^8.4.4",
     "@nestjs/terminus": "^8.0.6",
+    "@types/amqplib": "^0.8.2",
     "@types/node": "^17.0.21",
     "amqplib": "^0.8.0",
     "prettier": "^2.6.2",
