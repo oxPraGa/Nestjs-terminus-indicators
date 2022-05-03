@@ -1,8 +1,8 @@
 import { Module } from "@nestjs/common";
-import { RabbitMqHealthIndicator } from "./indicator/rabbit-mq-health.heatlh";
+import { RabbitMqHealthIndicator } from "./rabbit-mq-health.heatlh";
 
 @Module({
   exports: [RabbitMqHealthIndicator],
   providers: [RabbitMqHealthIndicator],
 })
-export class RabbitMqHealthModule {}
+export class IndicatorsModule {}
