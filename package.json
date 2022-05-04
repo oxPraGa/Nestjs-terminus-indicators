@@ -2,6 +2,10 @@
   "name": "@oxpraga/nestjs-terminus-indicators",
   "version": "0.0.1",
   "description": "A nestjs health indicators",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oxPraGa/nestjs-terminus-indicators"
+  },
   "author": "PraGa(aliouche.houssem2@gmail.com)",
   "main": "dist/index",
   "types": "dist/index",
